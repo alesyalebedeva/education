@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название сайта</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">Free<span>Time</span></a>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Няни</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                        <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Меню">
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                    <span class="menu-toggle__line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero__title">FreeTime</h1>
+                <p class="hero__subtitle">Услуги профессиональных нянь круглосуточно</p>
+                <div class="hero__buttons">
+                    <a href="#menu" class="btn btn--primary">Анкеты нянь</a>
+                    <a href="#contacts" class="btn btn--outline">Контакты и адрес</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__image">
+                        <img src="Images/ЗНАК.jpg" alt="">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="section-title">О нашем сервисе</h2>
+                        <p class="about__text">Мы предлагаем квалифицированных нянь, обеспечивая гибкий график визитов и возможность получить услугу тогда, когда это необходимо.</p>
+                        <p class="about__text">Никаких скрытых комиссий и подписок на услуги. Вы платите только за часы работы няни.</p>
+                        <ul class="about__features">
+                            <li class="feature-item">
+                                <span></span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-regular fa-thumbs-up"></i>&nbsp;
+                                <span>Предоставление пакета документов нянь (паспорт, медкнижка, справка об отсутствии судимости)</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-regular fa-thumbs-up"></i>&nbsp;
+                                <span>Специальная подготовка нянь для работы с особыми детьми</span>
+                            </li>
+                            <li class="feature-item">
+                                <i class="fa-regular fa-thumbs-up"></i>&nbsp;
+                                <span>Изменение графика визитов, подбор няни на замену, контроль качества оказываемых услуг</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2 class="section-title">Няни</h2>
+                <div class="menu__content active" id="coffee">
+                    <div class="menu__grid">
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Анна Иванова</h3>
+                                <span class="menu-item__price">30 лет</span>
+                            </div>
+                            <p class="menu-item__description">Высшее образование «Московский государственный психолого-педагогический университет». Специальность: социальный педагог. Переподготовка: педагог-психолог.
+                                 Пройдена медицинская комиссия.</p>
+                                 <button class="menu--btn">Подробнее</button>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Инна Дюг</h3>
+                                <span class="menu-item__price">23 года</span>
+                            </div>
+                            <p class="menu-item__description"> В процессе получения высшего образования. Специальность: клиническая психология.</p>
+                            <button class="menu--btn">Подробнее</button>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Ольга Степанова</h3>
+                                <span class="menu-item__price">46 лет</span>
+                            </div>
+                            <p class="menu-item__description">Высшее образование по специальности учитель начальных классов. Педагог высшей категории.</p>
+                            <button class="menu--btn">Подробнее</button>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Виктория Шмидт</h3>
+                                <span class="menu-item__price">40 лет</span>
+                            </div>
+                            <p class="menu-item__description">Высшее образование по направлению "Специальная педагогика и психология". </p>
+                            <button class="menu--btn">Подробнее</button>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Виктор Дуров</h3>
+                                <span class="menu-item__price">51 год</span>
+                            </div>
+                            <p class="menu-item__description">Высшее медицинское образование по специальности педиатр.</p>
+                            <button class="menu--btn">Подробнее</button>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item__header">
+                                <h3 class="menu-item__title">Галина Ульянова</h3>
+                                <span class="menu-item__price">38 лет</span>
+                            </div>
+                            <p class="menu-item__description">Высшее образование по специальности воспитатель детей дошкольного возраста, начальной школы. Логопед первой категории, психолог/деффектолог.</p>
+                            <button class="menu--btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews__slider">
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Анна профессионал своего дела! У нас даже игрушки убраны. Нашла подход к непростому клиенту двух лет, который очень привязан к маме. Благодарю! </p>
+                        <div class="review__author">
+                            <img src="Images/Людмила.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Людмила Яровая</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Спасибо за таких классных внимательных и веселых нянь для моего сыночка! Хочу отдельно оставить отзыв о Инне. Когда мой маленький сын видит Инну, вошедшую в дом, он сразу несет ей машинку. Потом ждет с нетерпением, когда же начнется игра.</p>
+                        <div class="review__author">
+                            <img src="Images/Екатерина.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Екатерина Ким</span>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review__rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="review__text">Здравствуйте. Прекрасно! Детям очень понравилась няня!</p>
+                        <div class="review__author">
+                            <img src="Images/Владимир.jpg" alt=""
+                                class="review__photo">
+                            <span class="review__name">Владимир Немов</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="contacts">
+            <div class="container">
+                <div class="contacts__inner">
+                    <div class="contacts__info">
+                        <h2 class="section-title">Контакты</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <span>454080, Челябинская область, г.Челябинск, пр. Ленина, 64Д </span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <span>Офис: 8 999-222-99-99<br>
+                                Администратор:
+                            8 999-111-22-33 (с 08:00 до 20:00),<br>
+                    8 999-333-44-55 (с 20:00 до 08:00)</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <span>freetime@list.ru</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <span>График работы офиса: <br>
+                            08:00-18:00 (ПН-ПТ) <br>
+                            09:00-15:00 (СБ-ВС) <br>
+                        Сам сервис осуществляется круглосуточно.</span>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Telegram"><i
+                                    class="fab fa-telegram-plane"></i></a>
+                        </div>
+                    </div>
+                    <div class="contacts__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2279.3567903571825!2d61.38634604549189!3d55.15953365492288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c592b6999c0367%3A0x87a7ad3343ed54eb!2z0KLQpiDQkNC70L7QtSDQn9C-0LvQtQ!5e0!3m2!1sru!2sru!4v1752603335900!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">
+                    <a href="#" class="logo">Time<span>Free</span></a>
+                    <p class="footer__text">Услуги профессиональных нянь круглосуточно</p>
+                </div>
+                <div class="footer__nav">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Главная</a></li>
+                        <li><a href="#menu" class="footer__link">Няни</a></li>
+                        <li><a href="#about" class="footer__link">О нас</a></li>
+                        <li><a href="#reviews" class="footer__link">Отзывы</a></li>
+                        <li><a href="#contacts" class="footer__link">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__subscribe">
+                    <h3 class="footer__title">Подписка</h3>
+                    <p class="footer__text">Подпишитесь на наши новости</p>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Ваш email" class="subscribe-input">
+                        <button type="submit" class="subscribe-btn"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© Copyright 2025. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
